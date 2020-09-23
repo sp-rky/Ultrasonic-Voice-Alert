@@ -18,10 +18,10 @@ Build a simple alert for when people get too close to keep their distance and wa
 
 ### Extra Ideas
 
-- [XC4444](https://jaycar.com.au/p/XC4444) use a PIR sensor to detect movement instead, suitable for wider range doorways and rooms.
-- [XC3744](https://jaycar.com.au/p/XC3744) increase the volume and play louder messages.
-- [XC3748](https://jaycar.com.au/p/XC3748) use the MP3 audio player to play some tunes when people walk in.
-- [XC3714](https://jaycar.com.au/p/XC3714) use the 8 digit display to visualise the distance between the person and the device.
+- [XC4444](https://jaycar.com.au/p/XC4444): Use a PIR sensor to detect movement instead, suitable for wider range doorways and rooms.
+- [XC3744](https://jaycar.com.au/p/XC3744): Increase the volume and play louder messages.
+- [XC3748](https://jaycar.com.au/p/XC3748): Use the MP3 audio player to play some tunes when people walk in.
+- [XC3714](https://jaycar.com.au/p/XC3714): Use the 8 digit display to visualise the distance between the person and the device.
 
 
 ## How to build
@@ -34,7 +34,7 @@ For instructions, check out https://jaycar.com.au/ultrasonic-voice-alert
 
 Hook it up to power so it turns on, then hold the record button on the playback module so you can record a short message.
 
-After recording the message, wave your hand in front of the ultrasonic sensor. you should find that when something passes the ultrasonic sensor, it will play back your message automatically.
+After recording the message, wave your hand in front of the ultrasonic sensor. You should find that when something passes the ultrasonic sensor, it will play back your message automatically.
 
 ### Troubleshooting
 
@@ -46,4 +46,4 @@ After recording the message, wave your hand in front of the ultrasonic sensor. y
 | It's not detecting movement.      | Check the wiring to the ultrasonic sensor.                  |
 
 Ensure your repeat switch is in this position:
-![](docs/images/repeat-switch.jpg)
+![](Documentation/images/repeat-switch.jpg)
