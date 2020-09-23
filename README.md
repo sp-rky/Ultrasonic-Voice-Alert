@@ -1,9 +1,9 @@
-# Ultrasonic Voice Alert
+# Ultrasonic Voice Alert - Updated by Stephanie Fletcher Davey
  Build a simple alert that speaks or chimes when people come within range
 
 ![hero image](hero.png)
 
-Build a simple alert for when people get too close to keep their distance and wash their hands. As the ultrasonic sensor detects the person getting too close,  it will use the record and playback module to playback a pre-recorded message. Use it to remind people to wash their hands or as an alert to keep them at a distance.
+Build a simple alert for when people get too close to keep their distance and wash their hands. As the ultrasonic sensor detects the person getting too close,  it will use the record and playback module to playback a pre-recorded message. Use it to remind people to wash their hands or as an alert to keep them at a distance. Has a handy mute button and 3 indicator lights to let the person know how close they are to you.
 
 ## Bill Of Materials
 | Qty | Code                                     | Description                 |
@@ -34,17 +34,16 @@ For instructions, check out https://jaycar.com.au/ultrasonic-voice-alert
 
 Hook it up to power so it turns on, then hold the record button on the playback module so you can record a short message.
 
-After recording the message, wave your hand infront of the ultrasonic sensor. you should find that when something passes the ultrasonic sensor, it will play back your message automatically.
+After recording the message, wave your hand in front of the ultrasonic sensor. you should find that when something passes the ultrasonic sensor, it will play back your message automatically.
 
 ### Troubleshooting
 
 | Problem                           | Possible cause                                              |
 | --------------------------------- | ----------------------------------------------------------- |
-| It keeps playing back the message | This could be caused by a few things:\                      |
-|                                   | either the `REPEAT` switch is kept on, \                    |
-|                                   | or the ultrasonic sensor is not detecting correctly. \      |
-|                                   | if changing the `REPEAT` switch doesn't fix it, have a \    |
-|                                   | look at the Serial monitor for what the ultrasonic is doing |
-| It's not detecting movement       | Definitely check the serial monitor                         |
+| It keeps playing back the message | This could be caused by a few things:                       |
+|                                   | Either the `REPEAT` switch is switched on, or the ultrasonic sensor is not detecting distance correctly.|
+|                                   | If changing the `REPEAT` switch doesn't fix it, have a      |
+|                                   | look at the Serial monitor for what the sensor is doing.    |
+| It's not detecting movement       | Check the wiring to the ultrasonic sensor.                  |
 
 ![](docs/images/repeat-switch.jpg)
