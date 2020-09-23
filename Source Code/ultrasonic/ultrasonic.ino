@@ -82,7 +82,7 @@ void loop() {
   }
 
   // signal the sound player to play a sound if the distance is below 25, as long as it isn't muted
-  if(distance < 25 && !muted) {
+  if(distance < 25 && distance > 0 && !muted) {
     digitalWrite(play, HIGH);
     delay(5);
     digitalWrite(play, LOW);
@@ -92,6 +92,9 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println("cm");
+
+  // wait a bit before testing again
+  delay(50);
 }
 
 int readUltrasonicDistance(int triggerPin, int echoPin) {
