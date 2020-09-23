@@ -11,7 +11,7 @@ Build a simple alert for when people get too close to keep their distance and wa
 | 1   | [XC3902](https://jaycar.com.au/p/XC3902) | Arduino Board, Jumpers, Breadboard, and LEDs|
 | 1   | [XC4605](https://jaycar.com.au/p/XC4605) | Duinotech Record and Playback Module  |
 | 1   | [WC6028](https://jaycar.com.au/p/WC6028) | Female to Male Jumper Cables |
-| 1   | [PH9251](https://jaycar.com.au/p/PH9251) | 9V Batter to Barrel Jack Connector             |
+| 1   | [PH9251](https://jaycar.com.au/p/PH9251) | 9V Battery to Barrel Jack Connector             |
 | 1   | [XC4442](https://jaycar.com.au/p/XC4442) | HC-SR04 Ultrasonic Sensor           |
 | 1   | [AS3006](https://jaycar.com.au/p/AS3006) | 1W Round Speaker            |
 | 1   | [SB2423](https://jaycar.com.au/p/SB2423) | Eclipse 9V Battery         |
