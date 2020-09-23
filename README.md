@@ -1,20 +1,20 @@
 # Ultrasonic Voice Alert - Updated by Stephanie Fletcher Davey
- Build a simple alert that speaks or chimes when people come within range
+ Build a simple alert that speaks or chimes when people come within range.
 
 ![hero image](hero.png)
 
 Build a simple alert for when people get too close to keep their distance and wash their hands. As the ultrasonic sensor detects the person getting too close,  it will use the record and playback module to playback a pre-recorded message. Use it to remind people to wash their hands or as an alert to keep them at a distance. Has a handy mute button and 3 indicator lights to let the person know how close they are to you.
 
 ## Bill Of Materials
-| Qty | Code                                     | Description                 |
-| --- | ---------------------------------------- | --------------------------- |
-| 1   | [XC4410](https://jaycar.com.au/p/XC4410) | UNO board                   |
-| 1   | [XC4605](https://jaycar.com.au/p/XC4605) | record and playback module  |
-| 1   | [WC6028](https://jaycar.com.au/p/WC6028) | plug to socket jumper wires |
-| 1   | [PH9251](https://jaycar.com.au/p/PH9251) | battery snap 9V             |
-| 1   | [XC4442](https://jaycar.com.au/p/XC4442) | ultrasonic sensor           |
-| 1   | [AS3006](https://jaycar.com.au/p/AS3006) | speaker 1W round            |
-| 1   | [SB2423](https://jaycar.com.au/p/SB2423) | 9V battery eclipse          |
+| Qty | Code                                     | Description                                  |
+| --- | ---------------------------------------- | ---------------------------                  |
+| 1   | [XC3902](https://jaycar.com.au/p/XC3902) | Arduino Board, Jumpers, Breadboard, and LEDs|
+| 1   | [XC4605](https://jaycar.com.au/p/XC4605) | Duinotech Record and Playback Module  |
+| 1   | [WC6028](https://jaycar.com.au/p/WC6028) | Female to Male Jumper Cables |
+| 1   | [PH9251](https://jaycar.com.au/p/PH9251) | 9V Batter to Barrel Jack Connector             |
+| 1   | [XC4442](https://jaycar.com.au/p/XC4442) | HC-SR04 Ultrasonic Sensor           |
+| 1   | [AS3006](https://jaycar.com.au/p/AS3006) | 1W Round Speaker            |
+| 1   | [SB2423](https://jaycar.com.au/p/SB2423) | Eclipse 9V Battery         |
 
 ### Extra Ideas
 
@@ -40,10 +40,10 @@ After recording the message, wave your hand in front of the ultrasonic sensor. y
 
 | Problem                           | Possible cause                                              |
 | --------------------------------- | ----------------------------------------------------------- |
-| It keeps playing back the message | This could be caused by a few things:                       |
+| It keeps playing back the message.| This could be caused by a few things:                       |
 |                                   | Either the `REPEAT` switch is switched on, or the ultrasonic sensor is not detecting distance correctly.|
-|                                   | If changing the `REPEAT` switch doesn't fix it, have a      |
-|                                   | look at the Serial monitor for what the sensor is doing.    |
-| It's not detecting movement       | Check the wiring to the ultrasonic sensor.                  |
+|                                   | If changing the `REPEAT` switch doesn't fix it, have a look at the Serial monitor for what the sensor is doing.|
+| It's not detecting movement.      | Check the wiring to the ultrasonic sensor.                  |
 
+Ensure your repeat switch is in this position:
 ![](docs/images/repeat-switch.jpg)
