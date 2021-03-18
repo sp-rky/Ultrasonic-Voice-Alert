@@ -1,4 +1,4 @@
-# Ultrasonic Voice Alert - Updated by Stephanie Fletcher Davey
+# Ultrasonic Voice Alert
  Build a simple alert that speaks or chimes when people come within range.
 
 ![hero image](hero.png)
